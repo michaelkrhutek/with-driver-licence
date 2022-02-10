@@ -3,7 +3,7 @@ import { KeyCode, useKeyPress } from "../hooks/useKeyPress";
 import { Vehicle, VehiclePosition } from "../models/Vehicle";
 
 export const withDriverLicence =
-  <Props,>(Component: React.FunctionComponent<Props>) =>
+  <Props,>(Component: React.FunctionComponent<Props>): React.FC<Props> =>
   (props: Props) => {
     const timeInterval = 1000 / 60;
     const vehicle = useMemo(
