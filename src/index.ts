@@ -1,0 +1,1 @@
+export { withDriverLicence } from './hoc/withDriverLicence';
