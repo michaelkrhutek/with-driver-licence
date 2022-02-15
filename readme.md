@@ -1,6 +1,6 @@
 # WithDriverLicence HOC
 
-with-driver-licence is a react higher-order component (HOC) which enables a user to move with a component.
+WithDriverLicence is a react higher-order component (HOC) which enables a user to move with a component.
 
 ## Installation
 
